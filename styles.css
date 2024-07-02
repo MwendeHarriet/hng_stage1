@@ -1,16 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #e6cdd7;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
+    align-items: center;
 }
 
 .container {
     background: #fff;
-    padding: 20px;
+    padding: 100px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .profile img {
-    border-radius: 50%;
+    border-radius: 5px;
 }
 
 .datetime, .links, .goals {
@@ -30,4 +30,22 @@ body {
     .container {
         width: 90%;
     }
+}
+
+.goals {
+    text-align: left;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
